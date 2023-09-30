@@ -14,7 +14,7 @@ Will need an API key for Open Weather inorder to call the api
 
 verify both api urls for single and multiple day lookups
 
-URL - 
+URL - https://sjbdlt.github.io/SB-Challenge-6-ASU/
 
 ![WeatherReview](WeatherOpen.png)
 
