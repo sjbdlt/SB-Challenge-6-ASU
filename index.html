@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6 Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"  ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header><h1 style="text-align: center;">Weather Dashboard</h1></header>
+   
+        <div class="container col-12" id="search">
+            <div class="row col-12">
+                <div class="col-3" id="searchdiv">
+                <h4>Search City</h4>
+                <input type="text" id="txtseachval" placeholder="Phoenix"></input>
+                <button class="btn btn-danger" id="btnsearch" style="width: 100%; background-color: blue">
+                    Search
+                  </button> 
+                 
+                  <hr/>
+                  <div id="citylist">
+
+                  </div>
+                </div>
+                <div class="col-8">
+                    <div class="row col-12" id="cityinfo">
+                    <div><label id="CityName" style="font-size: x-large; font-weight: bold;"></label></div>
+                    <div>Temp:  <label id="CityTemp"></label></div>
+                    <div>Wind:  <label id="Citywind"></label></div>
+                    <div>Humidity  <label id="CityHumidity"></label></div>
+                    </div>
+                    <div class="row col-12" style="font-size: large; font-weight: bold;">
+                        5-Day Forecast:
+                    </div>
+                    <div class="row col-12">
+                        
+                        <div class="container" id="forecastdiv">
+                            <div class="row" id="forecastdivrow">                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="./assets/js/script.js"></script>
+ 
+  </body>
+</html>

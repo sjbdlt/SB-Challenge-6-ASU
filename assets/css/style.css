@@ -1,0 +1,50 @@
+ /*change the size of h1*/ 
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ /*set margins, font color and background color for header*/
+header{
+    margin: 10px;
+    background-color: purple;
+    color: white;
+}
+
+ /*keep the main section background color white*/
+section{
+    background-color: White;
+               
+}
+
+ /*add some boarder to the city div and format*/
+#cityinfo{
+    border: 2px solid;
+    display: inline-block;
+}
+
+ /*format search div*/
+#searchdiv{
+    display: inline-block;
+}
+
+ /*set width and margin to search area*/
+#txtseachval{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+ /*Keep the items spaced evenly in the div*/
+#forecastdivrow{
+    justify-content: space-between;
+ }
+
+
+ /*Set how many columns based on screen size*/
+@media (min-width: 560px){
+    #search{
+        max-width: 100%;
+    }
+    
+}
